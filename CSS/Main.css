@@ -1,0 +1,406 @@
+@font-face {
+            font-family: mainfont;
+            src: url('./Fonts/IRANSans-Light-web.ttf') format('truetype'), url('./Fonts/IRANSans-Light-web.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: mainfont;
+            src: url('./Fonts/IRANSans-Bold-web.ttf') format('truetype'), url('./Fonts/IRANSans-Bold-web.woff   ') format('woff');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        .container {
+            width: 210mm;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            background: #f7f7f7;
+            height: 100%;
+            position: relative;
+        }
+
+        .lgbox {
+            width: 100%;
+            float: right;
+            background-color: #ffffff;
+            height: 100%;
+            font-family: mainfont !important;
+        }
+
+        div.user-image {
+            box-shadow: none;
+            margin-right: 25px;
+            margin-top: 20px;
+            width: 130px;
+            height: 130px;
+            display: inline-block;
+            float: right;
+        }
+
+        .person-information {
+            width: 80%;
+            height: 185px;
+            margin-top: 10px;
+            display: inline-block;
+            float: left;
+            margin: 0;
+            position: relative;
+            background-color: #146348;
+            background-image: url(../Image/header.png);
+            overflow: hidden;
+        }
+
+        .person-information:before {
+            content: '';
+            position: absolute;
+            width: 62px;
+            height: 100%;
+            background: #ffffff;
+            -webkit-transform: skew(-20deg);
+            right: -19px;
+        }
+
+        .person-information:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 101%;
+            height: 58px;
+            background: #ffffff;
+            bottom: -28px;
+            -webkit-transform: rotate(-5deg);
+        }
+
+        .person-information h1 {
+            color: #ced4d9;
+            padding-right: 60px;
+            margin-top: 8px;
+            font-size: 20px;
+            display: inline-block;
+            width: 296px;
+            margin-bottom: 0px;
+        }
+
+        .person-information h2 {
+            padding-right: 64px;
+            margin-top: 2px;
+            font-size: 13px;
+            font-weight: normal;
+            color: #ced4d9;
+            display: inline-block;
+            width: 260px;
+            margin-bottom: 3px;
+        }
+
+        .infoo {
+            display: inline-block;
+            width: 290px;
+            float: left;
+            position: absolute;
+            top: 8px;
+            left: 0;
+        }
+
+        .contact-item span:nth-child(2) {
+            display: none;
+        }
+
+        .contact-item span:last-child {
+            color: #ced4d9;
+            font-size: 10px;
+            unicode-bidi: plaintext;
+            display: inline-block;
+            width: 250px;
+            vertical-align: text-top;
+            text-align: right;
+        }
+
+        .contact__address {
+            display: inline;
+        }
+
+        div.contact-item span:first-child {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 25px;
+            color: #ced4d9;
+        }
+
+        .property-item_head {
+            text-align: right;
+            width: 100%;
+            border-bottom: none;
+            position: relative;
+            padding-right: 10px;
+            border-bottom: 1px dashed #afafaf;
+            padding-top: 18px;
+        }
+
+        .property-item_head label {
+            border-bottom: none;
+            color: #146348;
+            font-size: 16px;
+        }
+
+        .about-us {
+            text-align: right;
+            font-size: 11px !important;
+            padding-left: 0;
+            color: #585858;
+            line-height: 25px;
+        }
+
+        .property-item_head span {
+            display: block;
+            position: absolute;
+            top: 26px;
+            right: -27px;
+            font-size: 20px;
+            color: #146348;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 43px;
+        }
+
+        .property-item {
+            padding: 0 50px 5px;
+            width: 87%;
+        }
+
+        ul.history h2.subtitle {
+            unicode-bidi: plaintext;
+            color: #4d4d4d;
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+
+        ul.history li {
+            padding-left: 20px;
+            min-height: 40px;
+            margin-bottom: 8px;
+        }
+
+        ul.history h3.subtitle {
+            font-size: 11px;
+            font-style: normal;
+            color: #565656;
+            margin-bottom: 0px;
+        }
+
+        h3.subtitle label {
+            font-size: 8px;
+            background: #ffffff;
+            border: 1px solid #146348;
+        }
+
+        label.date {
+            font-size: 11px !important;
+            color: #565656;
+            margin-bottom: 10px;
+        }
+
+        .property-item {
+            padding: 0 50px 5px;
+        }
+
+        .skill__list ul.history li {
+            width: 47%;
+            margin-left: 38px;
+            padding: 0;
+        }
+
+        div.item-row li>span label:first-child {
+            font-size: 11px !important;
+            background: transparent;
+            color: #262e40;
+            padding: 0;
+            width: 235px;
+            height: auto;
+        }
+
+        .item-row.w0 li>span {
+            width: 100%;
+            height: auto;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .property-item.skill__list .grade {
+            display: block;
+            float: left;
+            height: 6px;
+            position: relative;
+            top: 7px;
+            right: -1px;
+        }
+
+        div.item-row li>span label.grade i {
+            border-radius: 0;
+            margin: 0px 0px;
+            height: 6px;
+            background: #ebebeb;
+            width: 13px !important;
+        }
+
+        div.item-row li>span label.grade i.tik {
+            background: #262e40 !important;
+            border-left: 1px solid white;
+        }
+
+        .language__list ul.history li {
+            padding-left: 0;
+        }
+
+        .language__list div.item-row li>span {
+            width: 168px;
+            margin-left: 3px;
+            padding: 0 2px;
+            background: transparent !important;
+        }
+
+        .language__list div.item-row li>span label.grade i {
+            width: 10px !important;
+            top: 10px;
+            position: relative;
+            margin: 0 1px;
+            background: #ebebeb;
+        }
+
+        .language__list div.item-row li>span label:first-child {
+            width: 100px;
+            font-size: 10px !important;
+            background: transparent;
+            height: 0px;
+        }
+
+        div.item-row li>span label {
+            float: left;
+        }
+
+        .language__list div.item-row li>span label.grade i.tik {
+            background: #4a4848 !important;
+            border-left: 1px solid white;
+        }
+
+        .skill__list ul.history li:nth-child(2n) {
+            margin-left: 0 !important;
+        }
+
+        .certificate__list ul.history li {
+            width: 50%;
+            min-height: 40px;
+        }
+
+        ul.list-item li p {
+            color: #424242;
+            font-size: 12px;
+            margin-bottom: 2px;
+            border-right: 0;
+        }
+
+        ul.history p.description {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+
+        p.project-link {
+            font-size: 11px;
+        }
+
+        .property-item.social__list ul.history li span label:first-child {
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 28px;
+            font-size: 22px !important;
+            background: transparent;
+        }
+
+        .social__list ul.history li {
+            min-height: initial;
+            margin: 0 !important;
+        }
+
+        .multi-line li:nth-child(2n+3) {
+            clear: both;
+        }
+
+        .property-item.certificate__list li:nth-child(2n + 3) {
+            clear: both;
+        }
+
+        .property-item.experience__list li:nth-child(2n + 3) {
+            clear: both;
+        }
+
+        li.break-property-item~li {
+            clear: none !important;
+        }
+
+        li.break-property-item~li:nth-child(2n) {
+            clear: both !important;
+        }
+
+        .infoo-head {
+            display: none;
+        }
+
+        .property-item.social__list ul.history li span label:last-child {
+            font-size: 15px;
+        }
+
+        .language__list ul.history {
+            width: 104%;
+        }
+
+        li.break-property-item~li:nth-child(2n) {
+            clear: both !important;
+        }
+
+        .skill__list ul li:nth-child(2n+3) {
+            clear: both;
+        }
+
+        li.break-property-item~li:nth-child(2n+1) {
+            margin-left: 0px !important;
+        }
+
+        label.Education-Grade {
+            display: block;
+            color: #565656;
+            font-size: 11px !important;
+            font-family: sdf;
+        }
+
+        .other-infos {
+            text-align: right;
+            color: #ced4d9;
+            width: 220px;
+            margin-right: 65px;
+            margin-top: 5px;
+            border-top: 1px dashed #ced4d9;
+            padding-top: 5px;
+        }
+
+        .other-infos>div {
+            display: block;
+            font-size: 10px;
+            margin-left: 15px;
+        }
+
+        ul.exp-desc li {
+            margin: 0 !important;
+            color: #565656;
+            font-size: 10px;
+        }
+
+        label.exp-desc-title {
+            color: #565656;
+            font-size: 10px;
+        }
